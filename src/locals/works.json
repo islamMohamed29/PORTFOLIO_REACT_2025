@@ -1,0 +1,179 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "category": "all",
+      "title": "E Commerce",
+      "image": "/work5.png",
+      "description": "React.js, Redux-toolkit, Sass, Bootstrap",
+      "status": "Under development",
+      "links": []
+    },
+    {
+      "id": 2,
+      "category": "all",
+      "title": "Time Management",
+      "image": "/work-6.png",
+      "description": "React.js, Redux-toolkit, Sass, Bootstrap",
+      "links": [
+        {
+          "type": "video",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "all",
+      "title": "Nerko NFT",
+      "image": "/work-4.png",
+      "description": "HTML, CSS, JS, jQuery",
+      "links": [
+        {
+          "type": "code",
+          "url": "https://github.com/islamMohamed29/nerko-NFT-html-css-js-jquery"
+        },
+        {
+          "type": "live",
+          "url": "https://islammohamed29.github.io/nerko-NFT-html-css-js-jquery/"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "all",
+      "title": "Bithu NFT",
+      "image": "/work-1.png",
+      "description": "HTML, CSS, Bootstrap[grid-system], JS, jQuery",
+      "links": [
+        {
+          "type": "code",
+          "url": "https://github.com/islamMohamed29/bithu-html-css-js-bootstrap"
+        },
+        {
+          "type": "live",
+          "url": "https://islammohamed29.github.io/bithu-html-css-js-bootstrap/"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "all",
+      "title": "Banana Organic Food",
+      "image": "/work-2.png",
+      "description": "HTML, CSS, JS, Bootstrap, jQuery",
+      "links": [
+        {
+          "type": "code",
+          "url": "https://github.com/islamMohamed29/banana-html-css-js-bootstrap"
+        },
+        {
+          "type": "live",
+          "url": "https://islammohamed29.github.io/banana-html-css-js-bootstrap/"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "all",
+      "title": "MOVIX",
+      "image": "/work-3.png",
+      "description": "HTML, CSS, React JS, Bootstrap, jQuery, API",
+      "links": [
+        {
+          "type": "code",
+          "url": "https://github.com/islamMohamed29/Movie-React-App"
+        },
+        {
+          "type": "live",
+          "url": "https://islammohamed29.github.io/Movie-React-App/"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "category": "web",
+      "title": "MOVIX",
+      "image": "/work-3.png",
+      "description": "HTML, CSS, React JS, Bootstrap, jQuery, API",
+      "links": [
+        {
+          "type": "code",
+          "url": "https://github.com/islamMohamed29/Movie-React-App"
+        },
+        {
+          "type": "live",
+          "url": "https://islammohamed29.github.io/Movie-React-App/"
+        }
+      ]
+    },
+    {
+      "category": "web",
+      "title": "E Commerce",
+      "image": "/work5.png",
+      "description": "React.js, Redux-toolkit, Sass, Bootstrap",
+      "status": "Under development",
+      "links": []
+    },
+    {
+      "category": "web",
+      "title": "Time Management",
+      "image": "/work-6.png",
+      "description": "React.js, Redux-toolkit, Sass, Bootstrap",
+      "links": [
+        {
+          "type": "video",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "category": "web",
+      "title": "Bithu NFT",
+      "image": "/work-1.png",
+      "description": "HTML, CSS, Bootstrap[grid-system], JS, jQuery",
+      "links": [
+        {
+          "type": "code",
+          "url": "https://github.com/islamMohamed29/bithu-html-css-js-bootstrap"
+        },
+        {
+          "type": "live",
+          "url": "https://islammohamed29.github.io/bithu-html-css-js-bootstrap/"
+        }
+      ]
+    },
+    {
+      "category": "web",
+      "title": "Banana Organic Food",
+      "image": "/work-2.png",
+      "description": "HTML, CSS, JS, Bootstrap, jQuery",
+      "links": [
+        {
+          "type": "code",
+          "url": "https://github.com/islamMohamed29/banana-html-css-js-bootstrap"
+        },
+        {
+          "type": "live",
+          "url": "https://islammohamed29.github.io/banana-html-css-js-bootstrap/"
+        }
+      ]
+    },
+    {
+      "category": "web",
+      "title": "Nerko NFT",
+      "image": "/work-4.png",
+      "description": "HTML, CSS, JS, jQuery",
+      "links": [
+        {
+          "type": "code",
+          "url": "https://github.com/islamMohamed29/nerko-NFT-html-css-js-jquery"
+        },
+        {
+          "type": "live",
+          "url": "https://islammohamed29.github.io/nerko-NFT-html-css-js-jquery/"
+        }
+      ]
+    }
+  ]
+}

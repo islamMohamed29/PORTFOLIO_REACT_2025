@@ -1,0 +1,87 @@
+{
+  "education": {
+    "head": "Education",
+    "data": [
+      {
+        "title": "Route",
+        "position": "Student",
+        "desc": "One of the most beautiful times I spent in my life inside this place, where I got to know many wonderful people and they became one of my best friends, the engineer <span>Aya Ali</span>, the mentor <span>Mahmoud Hesham</span> and the engineer <span>Ahmed Bahnasy</span>, it was an honor to meet you all and thank you very much",
+        "date": "feb 2022 - aug 2022",
+        "hasImage": true,
+        "imageSrc": "/vvvvvvvvvvvvvvvvv.png",
+        "isSpecial": true,
+        "isShow": true
+      },
+      {
+        "title": "HICMIS of Egypt",
+        "position": "Student",
+        "desc": "Bachelor's degree in Management Information Systems Higher Institute, May 15th, Shubra El-Kheima",
+        "date": "sep 2017 - jun 2022",
+        "hasImage": false,
+        "imageSrc": null,
+        "isSpecial": false,
+        "isShow": true
+      },
+
+      {
+        "title": "ICDL Arabia",
+        "position": "Student",
+        "desc": " I already had the skills, but I tried to document them with a certificate.",
+        "date": "jan 2019 - jan 2019",
+        "hasImage": false,
+        "imageSrc": "",
+        "isSpecial": false,
+        "isShow": false
+      },
+      {
+        "title": "Elzero Web School",
+        "position": "Web Developer Courses",
+        "desc": " استاذي ومُعلمي الأول وله الفضل بعد الله في حُبي لهذا المجال والعمل علي التطوير من الذات والسعي وعدم التوقف مهما كان الأمر صعب مهما اكتب فلن اوفيه حقه ابداً ولكني افتخر بوجود هذه الكلمات داخل موقعي جزاه الله خيراً علي كُل ما يُقدمة لنا وعلي حُسن خُلقة وسعة صدره",
+        "date": "Apr 2021",
+        "iconDate": "<i class=\"fa-solid fa-infinity\"></i>",
+        "hasImage": true,
+        "imageSrc": "Elzero.JPG",
+        "isSpecial": true,
+        "isShow": false,
+        "hasLink": true,
+        "linkSrc": "",
+        "linkTitle": "Academy Website"
+      }
+    ]
+  },
+  "workHistory": {
+    "head": "Work History",
+    "data": [
+      {
+        "title": "Procoor Managment Solutions",
+        "position": "Front-end Developer",
+        "desc": "Bachelor's degree in Management Information Systems Higher Institute, May 15th, Shubra El-Kheima",
+        "date": "may 2024 - now",
+        "hasImage": false,
+        "imageSrc": null,
+        "isSpecial": false,
+        "isShow": true
+      },
+      {
+        "title": " G-STAR RAW & More",
+        "position": "Manger",
+        "desc": "I was working in the clothing business where I could save some time for development",
+        "date": "jan 2018 - may 2022",
+        "hasImage": false,
+        "imageSrc": null,
+        "isSpecial": false,
+        "isShow": false
+      },
+      {
+        "title": "Free Lancer",
+        "position": "Front-end Developer",
+        "desc": "I am ready to work remotely",
+        "date": "aug 2022 - now",
+        "hasImage": false,
+        "imageSrc": null,
+        "isSpecial": false,
+        "isShow": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "services": [
+    {
+      "title": "Web Development",
+      "content": "Professionally designing website interfaces and the ability to deal with APIs and think creatively for you to create a dynamic website that matches what you want."
+    },
+    {
+      "title": "Database Management",
+      "content": "Ability to design, understand and process database, data storage queries, validation of transmitted data, and authentication."
+    },
+    {
+      "title": "UI/UX Design",
+      "content": "Designing the interface for applications and knowing the way the user thinks and what he wants, which is compatible with the idea of ​​the application, using famous tools for that."
+    },
+    {
+      "title": "Secure",
+      "content": "Integrating highly secure functions to ensure the security of your data and user data."
+    },
+    {
+      "title": "Highly Scalable",
+      "content": "Develop web applications dynamically in order to provide scalability for future work."
+    },
+    {
+      "title": "High-Performance",
+      "content": "The ability to design and create a faster and smoother user experience in order to increase the productivity of your business."
+    }
+  ]
+}

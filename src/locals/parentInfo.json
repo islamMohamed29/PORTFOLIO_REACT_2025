@@ -1,0 +1,76 @@
+{
+  "name": "Islam Mohamed",
+  "job": "Front-end Developer",
+  "age": 24,
+  "location": {
+    "residence": "Egypt",
+    "city": "Shubra El-kheima"
+  },
+  "languages": [
+    {
+      "language": "Arabic",
+      "proficiency": 100
+    },
+    {
+      "language": "English",
+      "proficiency": 70
+    }
+  ],
+  "codingSkills": [
+    {
+      "skill": "MongoDB",
+      "percentage": 90,
+      "className": "progress-mongo"
+    },
+    {
+      "skill": "Express.js",
+      "percentage": 80,
+      "className": "progress-express"
+    },
+    {
+      "skill": "React.js",
+      "percentage": 85,
+      "className": "progress-react"
+    },
+    {
+      "skill": "Node.js",
+      "percentage": 80,
+      "className": "progress-nodejs"
+    }
+  ],
+  "knowledge": [
+    "HTML",
+    "CSS",
+    "jQuery",
+    "Bootstrap, Materialize",
+    "Sass, Less",
+    "ECMAScript, TypeScript",
+    "Socket.io",
+    "GraphQL",
+    "Ajax, Dealing with API",
+    "Error Handling, and Validation",
+    "Responsive Web Design",
+    "RegEx",
+    "OOP",
+    "Git, GitHub",
+    "GitLap",
+    "Puj.JS",
+    "Gulp.JS",
+    "SOLID",
+    "Redux.JS",
+    "AdobeXD, Figma"
+  ],
+  "socialLinks": {
+    "facebook-f": "https://www.facebook.com/islamMohamed29/",
+    "linkedin-in": "https://www.linkedin.com/in/islam29/",
+    "github": "https://github.com/islamMohamed29",
+    "instagram": "https://www.instagram.com/islam.mohamed29/"
+  },
+  "socialLink": [
+    {
+      "icon": "Facebook",
+      "link": "https://www.facebook.com/islamMohamed29/"
+    }
+  ],
+  "cvLink": "https://drive.google.com/file/d/1yjvFB1uVSC3bukiyi1s6h2HmXJkMhFU2"
+}
