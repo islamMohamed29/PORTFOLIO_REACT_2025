@@ -13,13 +13,8 @@ export const Details = () => {
 
   return (
     <div className="work_details">
-      <div className="image" style={{ padding: "25px" }}>
-        <img
-          style={{ width: "100%" }}
-          className="image_work"
-          src={work?.image}
-          alt=""
-        />
+      <div className="image">
+        <img className="image_work" src={work?.image} alt="" />
       </div>
     </div>
   );

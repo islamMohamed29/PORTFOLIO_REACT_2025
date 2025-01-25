@@ -1,7 +1,9 @@
+import { useDispatch, useSelector } from "react-redux";
 import parentInfo from "../locals/parentInfo.json";
 import ProfileCard from "./ProfileCard";
+import { setShowLeftMenu } from "../redux/slices/layout-slice";
 
-export const ParentInfo = ({ ellipsisVertical, setEllipsisVertical }) => {
+export const ParentInfo = () => {
   const {
     name,
     job,
@@ -13,24 +15,28 @@ export const ParentInfo = ({ ellipsisVertical, setEllipsisVertical }) => {
     socialLinks,
     cvLink,
   } = parentInfo;
+
+  const state = useSelector((state) => state);
+  const dispatch = useDispatch();
+  const { showLeftMenu } = state.layout;
   return (
     <div
       class="parent-info"
       style={{
-        ...(ellipsisVertical && {
-          left: "0",
-          top: "0",
-          height: "100vh",
-        }),
+        ...(showLeftMenu
+          ? { left: "0", top: "0", height: "100vh" }
+          : {
+              ...(!showLeftMenu && { top: "0", height: "100vh" }),
+            }),
       }}
     >
       <i
         class="fa-solid fa-xmark"
-        onClick={() => setEllipsisVertical(false)}
+        onClick={() => dispatch(setShowLeftMenu(!showLeftMenu))}
       ></i>
       <ProfileCard
-        name="Islam Mohamed"
-        job="Front-end Developer"
+        name={name}
+        job={job}
         // imageUrl="/New Project.png"
         imageUrl="/Test.png"
         modalImageUrl="/Profile.jpg"

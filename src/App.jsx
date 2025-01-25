@@ -1,28 +1,28 @@
 import { useState } from "react";
 import "./App.css";
-import { ParentInfo } from "./Components/ParentInfo";
-import { ParentHead } from "./Components/ParentHead";
-import { ParentAbout } from "./Components/ParentAbout";
-import { Services } from "./Components/Services";
-import { Work } from "./Components/Work";
-import { TimeLine } from "./Components/TimeLine";
-import { RightMenu } from "./Components/RightMenu";
-import { Contact } from "./Components/Contact";
-import { Footer } from "./Components/Footer";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Details } from "./pages/Details";
-
+import { Layout } from "./pages/Layout";
+import { useDispatch } from "react-redux";
+import { setShowLeftMenu, setShowRightMenu } from "./redux/slices/layout-slice";
 function App() {
-  const [ellipsisVertical, setEllipsisVertical] = useState(false);
-  const handleClickEllipsisVertical = () => {
-    setEllipsisVertical(true);
-  };
-  const [headerListMenu, setHeadListMenu] = useState(false);
+  let dispatch = useDispatch();
+  const routes = [
+    {
+      path: "/",
+      element: <Layout />,
+      children: [
+        { path: "", element: <Home /> },
+        { path: "/details/:id", element: <Details /> },
+      ],
+    },
+  ];
 
   return (
     <Router>
+      {/* <ScrollToTop /> */}
       <div className="parent">
         <div class="go-top">
           <i class="fa-solid fa-angles-up"></i>
@@ -30,28 +30,31 @@ function App() {
         <div class="mobile-media">
           <i
             class="fa-solid fa-ellipsis-vertical"
-            onClick={handleClickEllipsisVertical}
+            onClick={() => dispatch(setShowLeftMenu(true))}
           ></i>
-          <i class="fa-solid fa-bars"></i>
+          <i
+            class="fa-solid fa-bars"
+            onClick={() => dispatch(setShowRightMenu(true))}
+          ></i>
         </div>
         <div className="parent-wrapper">
           <div className="parent-container">
-            <ParentInfo
-              ellipsisVertical={ellipsisVertical}
-              setEllipsisVertical={setEllipsisVertical}
-            />
             <div className="parent-content">
               <Routes>
-                <Route path="/" element={<Home />} />
-                {/* <Route path="/details" element={<Details />} /> */}
-                <Route path="/details/:id" element={<Details />} />
+                {routes.map((route, index) => (
+                  <Route key={index} path={route.path} element={route.element}>
+                    {route.children &&
+                      route.children.map((childRoute, childIndex) => (
+                        <Route
+                          key={childIndex}
+                          path={childRoute.path}
+                          element={childRoute.element}
+                        />
+                      ))}
+                  </Route>
+                ))}
               </Routes>
-              <Footer />
             </div>
-            <RightMenu
-              headerListMenu={headerListMenu}
-              setHeadListMenu={setHeadListMenu}
-            />
           </div>
         </div>
       </div>

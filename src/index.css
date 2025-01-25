@@ -1104,7 +1104,8 @@ a {
   outline: none;
 }
 .work .nav button:hover {
-  border-color: #2d303d;
+  /* border-color: #2d303d; */
+  border-color: #ffc107;
   outline: none;
 }
 /* Time Line Section  */
@@ -1539,7 +1540,8 @@ a {
   }
 
   .parent-menu .list {
-    right: 0;
+    /* right: -100%; */
+    /* right: 0; */
     height: 100%;
     top: 0;
   }
@@ -1550,9 +1552,9 @@ a {
 }
 
 @media (min-width: 1032px) {
-  .parent-menu .list {
+  /* .parent-menu .list {
     right: -100%;
-  }
+  } */
 }
 
 /* mobile media  */
@@ -1721,3 +1723,17 @@ a {
 .custom_text_modal .custom_modal_box .custom_modal_content p {
   color: #fff;
 }
+
+.work_details {
+  height: calc(100% - 60px);
+  min-height: calc(100vh - 90px);
+}
+.work_details .image {
+  padding: 25px;
+}
+
+.work_details .image .image_work {
+  width: 100%;
+}
+
+/* Loader  */
