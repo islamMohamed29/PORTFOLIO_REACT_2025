@@ -24,16 +24,16 @@ function App() {
     <Router>
       {/* <ScrollToTop /> */}
       <div className="parent">
-        <div class="go-top">
-          <i class="fa-solid fa-angles-up"></i>
+        <div className="go-top">
+          <i className="fa-solid fa-angles-up"></i>
         </div>
-        <div class="mobile-media">
+        <div className="mobile-media">
           <i
-            class="fa-solid fa-ellipsis-vertical"
+            className="fa-solid fa-ellipsis-vertical"
             onClick={() => dispatch(setShowLeftMenu(true))}
           ></i>
           <i
-            class="fa-solid fa-bars"
+            className="fa-solid fa-bars"
             onClick={() => dispatch(setShowRightMenu(true))}
           ></i>
         </div>

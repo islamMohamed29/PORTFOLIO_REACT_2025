@@ -8,24 +8,24 @@ export const RightMenu = () => {
   const { showRightMenu } = state.layout;
 
   return (
-    <div class="parent-menu">
-      <div class="menu-bar">
-        <div class="menu-frame">
-          <div class="header-menu">
+    <div className="parent-menu">
+      <div className="menu-bar">
+        <div className="menu-frame">
+          <div className="header-menu">
             <i
-              class="fa-solid fa-bars"
+              className="fa-solid fa-bars"
               onClick={() => dispatch(setShowRightMenu(!showRightMenu))}
             ></i>
           </div>
         </div>
       </div>
       <div
-        class="list"
+        className="list"
         style={{
           ...(showRightMenu && { right: "0" }),
         }}
       >
-        <ul class="list-unstyled">
+        <ul className="list-unstyled">
           <li>
             <a href="#home">HOME</a>
           </li>
@@ -44,10 +44,10 @@ export const RightMenu = () => {
             <a href="#contact">CONTACT</a>
           </li>
         </ul>
-        <div class="close">
+        <div className="close">
           {showRightMenu && (
             <i
-              class="fa-solid fa-xmark"
+              className="fa-solid fa-xmark"
               onClick={() => dispatch(setShowRightMenu(!showRightMenu))}
             ></i>
           )}

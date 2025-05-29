@@ -14,15 +14,15 @@ export const Services = () => {
   };
 
   return (
-    <div class="services" id="services">
-      <div class="container-fluid px-4">
-        <h4 class="title-section-h">My Services</h4>
-        <div class="row g-4">
+    <div className="services" id="services">
+      <div className="container-fluid px-4">
+        <h4 className="title-section-h">My Services</h4>
+        <div className="row g-4">
           {services.map((service, index) => (
-            <div class="col-lg-4 col-md-6" key={index}>
-              <div class="box" onClick={() => showServices(service)}>
+            <div className="col-lg-4 col-md-6" key={index}>
+              <div className="box" onClick={() => showServices(service)}>
                 <h5>{service.title}</h5>
-                <div class="div-content">
+                <div className="div-content">
                   <p>{service.content}</p>
                 </div>
               </div>

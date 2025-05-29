@@ -21,7 +21,7 @@ export const ParentInfo = () => {
   const { showLeftMenu } = state.layout;
   return (
     <div
-      class="parent-info"
+      className="parent-info"
       style={{
         ...(showLeftMenu
           ? { left: "0", top: "0", height: "100vh" }
@@ -31,7 +31,7 @@ export const ParentInfo = () => {
       }}
     >
       <i
-        class="fa-solid fa-xmark"
+        className="fa-solid fa-xmark"
         onClick={() => dispatch(setShowLeftMenu(!showLeftMenu))}
       ></i>
       <ProfileCard
@@ -41,22 +41,22 @@ export const ParentInfo = () => {
         imageUrl="/Test.png"
         modalImageUrl="/Profile.jpg"
       />
-      {/* <div class="header-box">
-        <div class="profile-img">
+      {/* <div className="header-box">
+        <div className="profile-img">
           <img src="/Profile.jpg" alt="" />
-          <div class="lamp-parent">
-            <div class="lamp"></div>
+          <div className="lamp-parent">
+            <div className="lamp"></div>
           </div>
         </div>
-        <div class="profile-about py-3">
-          <h5 class="name">{name}</h5>
-          <div class="job pt-1">{job}</div>
+        <div className="profile-about py-3">
+          <h5 className="name">{name}</h5>
+          <div className="job pt-1">{job}</div>
         </div>
       </div> */}
-      <div class="scroll-area">
-        <div class="box">
-          <div class="info pt-3 px-3">
-            <ul class="about-us list-unstyled">
+      <div className="scroll-area">
+        <div className="box">
+          <div className="info pt-3 px-3">
+            <ul className="about-us list-unstyled">
               <li>
                 <h6>Residence:</h6>
                 <span>{location.residence}</span>
@@ -70,10 +70,10 @@ export const ParentInfo = () => {
                 <span>{age}</span>
               </li>
             </ul>
-            <div class="divider"></div>
-            <h5 class="title-h">Languages</h5>
+            <div className="divider"></div>
+            <h5 className="title-h">Languages</h5>
 
-            <div class="lang-skills p-3">
+            <div className="lang-skills p-3">
               {languages.map((lang, index) => (
                 <div key={index} className="lang-skills-item">
                   <div
@@ -112,11 +112,11 @@ export const ParentInfo = () => {
               ))}
             </div>
 
-            <div class="divider"></div>
-            <h5 class="title-h">Coding</h5>
+            <div className="divider"></div>
+            <h5 className="title-h">Coding</h5>
 
-            <div class="hard-skills py-3">
-              <ul class="skills list-unstyled">
+            <div className="hard-skills py-3">
+              <ul className="skills list-unstyled">
                 {codingSkills.map((skill, index) => (
                   <li key={index}>
                     <h6>{skill.skill}</h6>
@@ -127,11 +127,11 @@ export const ParentInfo = () => {
               </ul>
             </div>
 
-            <div class="divider"></div>
-            <h5 class="title-h">knowledge</h5>
+            <div className="divider"></div>
+            <h5 className="title-h">knowledge</h5>
 
-            <div class="knowledge-area py-2">
-              <ul class="knowledge list-unstyled">
+            <div className="knowledge-area py-2">
+              <ul className="knowledge list-unstyled">
                 {knowledge.map((item, index) => (
                   <li key={index}>
                     <i className="fas fa-check"></i>
@@ -141,18 +141,18 @@ export const ParentInfo = () => {
               </ul>
             </div>
 
-            <div class="divider"></div>
-            <div class="cv-downloed py-3">
+            <div className="divider"></div>
+            <div className="cv-downloed py-3">
               <a target="_blank" href={cvLink}>
-                Downloed Cv <i class="fa-solid fa-download"></i>
+                Downloed Cv <i className="fa-solid fa-download"></i>
               </a>
             </div>
           </div>
         </div>
       </div>
-      <div class="bottom-box">
-        <div class="social">
-          <ul class="list-unstyled">
+      <div className="bottom-box">
+        <div className="social">
+          <ul className="list-unstyled">
             {Object.keys(socialLinks).map((platform, index) => (
               <li key={index}>
                 <a target="_blank" href={socialLinks[platform]}>

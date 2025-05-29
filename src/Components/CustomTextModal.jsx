@@ -7,9 +7,9 @@ export const CustomTextModal = ({ isOpen, onClose, title, content }) => {
         <span className="close" onClick={onClose}>
           &times;
         </span>
-        <div class="custom_modal_box">
+        <div className="custom_modal_box">
           <h5>{title}</h5>
-          <div class="custom_modal_content">
+          <div className="custom_modal_content">
             <p>{content}</p>
           </div>
         </div>

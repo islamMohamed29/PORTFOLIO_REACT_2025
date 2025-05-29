@@ -27,7 +27,7 @@ export const Work = () => {
               ALL
             </button>
             <button
-              class="nav-link"
+              className="nav-link"
               id="nav-web-tab"
               data-bs-toggle="tab"
               data-bs-target="#nav-web"
@@ -40,7 +40,7 @@ export const Work = () => {
             </button>
 
             <button
-              class="nav-link disabled"
+              className="nav-link disabled"
               id="nav-contact-tab"
               data-bs-toggle="tab"
               data-bs-target="#nav-contact"
